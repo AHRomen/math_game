@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0,0.486),rgba(0, 0, 0, 0.486)),url(image/math.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: whitesmoke;
+}
+.center{
+    align-items: center;
+}
+input[type="number" i] {
+    padding: 0;
+}
+.mbtn{
+    background: #0d9636cb;
+    color:aliceblue;
+}
+.mbtn:hover{
+    background: #0d9636cb;
+    color:aliceblue;
+}
+.hr{
+    height: 1px;
+    width: 70%;
+    background: #fff;
+    display: inline-block;
+}
+.mbody{
+    font-size: 20px;
+}
+.mbody1, .mbody2{
+    font-size: 30px;
+}
+.points{
+    background: #d6c3c3c9;
+    height: 100%;
+    padding: 50px;
+    font-size: 20px;
+}
+.right{
+    background: #03701e91;
+}
+.wrong{
+    background: #5a0e0e9f;
+}
+.greatings{
+    margin-top: 70px ;
+}
+@media only screen and (max-width: 2560px) {
+    .resd1{
+        display: none;
+    }  
+}
+@media only screen and (max-width: 767px) {
+    .resd1{
+        display: block;
+    }
+    .resd2{
+        display: none;
+    }  
+}

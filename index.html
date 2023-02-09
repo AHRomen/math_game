@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math Game For Children</title>
+    <link rel="shortcut icon" href="https://image.shutterstock.com/image-vector/math-symbols-vector-icon-260nw-632470322.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="head text-light container">
+        <div class="head1 py-3">
+            <h1 class="text-center">Welcome to the world of Math game</h1>
+            <h3 class="text-center fw-semibold text-light">Practise makes Parfect</h3>
+        </div><hr/>
+        <div class="head2 py-4">
+            <h2 class="text-center fw-light">Here you can do all the arithmetic operation of mathematics</h2>
+        </div>
+    </div>
+    <div class="body1 container py-4 mb-4">
+        <div class="row resd1">
+            <div class="text-center my-4">
+                <button type="button" class="btn mbtn m-sm-1 m-2">Addition</button>
+                <button type="button" class="btn mbtn m-sm-1 m-2">Substraction</button>
+                <button type="button" class="btn mbtn m-sm-1 m-2">Multiplication</button>
+                <button type="button" class="btn mbtn m-sm-1 m-2">Division</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-8 mx-auto text-center resd2">
+                <h3 class="chose">Choose which one you want to practice</h3><hr/>
+                <div class="d-grid gap-2 col-6 mx-auto py-4">
+                    <button type="button" class="btn mbtn">Addition</button>
+                    <button type="button" class="btn mbtn">Substraction</button>
+                    <button type="button" class="btn mbtn">Multiplication</button>
+                    <button type="button" class="btn mbtn">Division</button>
+                  </div>
+            </div>
+            <div class="col-md-6 col-sm-8 mx-sm-auto">
+                <div class="points">
+                    <h2>Your score is:</h2>
+                    <div class="right p-2">Right ans is: <span id="right"></span></div>
+                    <div class="wrong mt-3 p-2">Wrong ans is: <span id="wrong"></span></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-8 mx-sm-auto text-center">
+                <h3 class="chose my-4">Do every tasks carefully</h3><hr/>
+                <div class="mbody py-4 text-end">
+                    <div class="mbody1" id="num1"></div>
+                    <div class="mbody2" id="num2"><span id="sing"></span></div>
+                    <div class="hr"></div>
+                    <div class="total"><input type="text" class="sum text-end" id="ans" placeholder="Write the ans"></div>
+                    <div class="d-grid gap-2 text-end py-4">
+                        <button type="button" onclick="csum()" class="btn mbtn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="greatings text-center">
+                    <h2 class="g1" id="complement"></h2>
+                    <div class="d-grid gap-2 col-12 col-md-4 mx-auto text-end py-4">
+                        <button onclick="next()" type="button" class="btn mbtn">Next</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="my.js"></script>
+  </body>
+</html>

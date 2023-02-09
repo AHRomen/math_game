@@ -37,7 +37,8 @@ var ans =  document.getElementById("ans").value;
                     document.getElementById("complement").innerHTML="Hurry! You are Right";
                         r= r+1;
                         document.getElementById("right").innerHTML = r;
-                        temp = ans 
+                        temp = ans; 
+                        console.log(temp);
                 }
                 else{
                     document.getElementById("complement").innerHTML="Opps! try Again";
